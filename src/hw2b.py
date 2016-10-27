@@ -72,7 +72,7 @@ def load_data():
     # Extract validation dataset from train dataset
     train_set_len = len(train_set[1])
     valid_set = (x[-(train_set_len//10):] for x in train_set)
-    test_set = (x[:-(train_set_len//10)] for x in train_set)
+    train_set = (x[:-(train_set_len//10)] for x in train_set)
 
     # train_set, valid_set, test_set format: tuple(input, target)
     # input is a numpy.ndarray of 2 dimensions (a matrix)
@@ -387,11 +387,113 @@ class MLP(object):
 
 # TODO: problem b, bullet 1
 class myMLP(object):
-    pass
+    def __init__(self, rng, input, n_in, n_hidden,n_hiddenLayers, activation, n_out):
+        k=1
+        self.hiddenLayer = HiddenLayer(
+           rng=rng,
+           input=input,
+           n_in=n_in,
+           n_out=n_hidden,
+           activation=activation
+        )
+        self.L1 =  abs(self.hiddenLayer.W).sum()
+        self.L2_sqr = (self.hiddenLayer.W ** 2).sum()
+        self.params = self.hiddenLayer.params
+
+        while k<n_hiddenLayers:
+            self.hiddenLayer = HiddenLayer(
+               rng=rng,
+               input=self.hiddenLayer.output,
+               n_in=n_hidden,
+               n_out=n_hidden,
+               activation=activation
+            )
+            self.L1 = (self.L1 + abs(self.hiddenLayer.W).sum())
+            self.L2_sqr =( self.L2_sqr + (self.hiddenLayer.W ** 2).sum())
+            self.params = self.params + self.hiddenLayer.params
+            k=k+1
+        
+        # if activation==T.tanh:
+            
+        #     k=1
+        #     self.hiddenLayer = HiddenLayer(
+        #         rng=rng,
+        #         input=input,
+        #         n_in=n_in,
+        #         n_out=n_hidden,
+        #         activation=T.tanh
+        #     )
+        #     self.L1 =  abs(self.hiddenLayer.W).sum()
+        #     self.L2_sqr = (self.hiddenLayer.W ** 2).sum()
+        #     self.params = self.hiddenLayer.params
+
+        #     while k<n_hiddenLayers:
+        #         self.hiddenLayer = HiddenLayer(
+        #             rng=rng,
+        #             input=self.hiddenLayer.output,
+        #             n_in=n_hidden,
+        #             n_out=n_hidden,
+        #             activation=T.tanh
+        #         )
+        #         self.L1 = (self.L1 + abs(self.hiddenLayer.W).sum())
+        #         self.L2_sqr =( self.L2_sqr + (self.hiddenLayer.W ** 2).sum())
+        #         self.params = self.params + self.hiddenLayer.params
+        #         k=k+1
+          
+        # else:
+        #     k=1
+        #     self.hiddenLayer = LogisticRegression(
+        #         input=input,
+        #         n_in=n_in,
+        #         n_out=n_hidden
+        #     )
+        #     self.L1 =  abs(self.hiddenLayer.W).sum()
+        #     self.L2_sqr = (self.hiddenLayer.W ** 2).sum()
+        #     self.params = self.hiddenLayer.params
+
+        #     while k<n_hiddenLayers:
+        #         self.hiddenLayer = LogisticRegression(
+        #             input=self.hiddenLayer.output,
+        #             n_in=n_hidden,
+        #             n_out=n_hidden
+        #         )
+        #         self.L1 = (self.L1 + abs(self.hiddenLayer.W).sum())
+        #         self.L2_sqr =( self.L2_sqr + (self.hiddenLayer.W ** 2).sum())
+        #         self.params = self.params + self.hiddenLayer.params
+        #         k=k+1
+            
+            
+        self.logRegressionLayer = LogisticRegression(
+            input=self.hiddenLayer.output,
+            n_in=n_hidden,
+            n_out=n_out
+        )
+        
+        self.L1 =( self.L1 + abs(self.logRegressionLayer.W).sum())
+        
+        self.L2_sqr = (
+            self.L2_sqr
+            + (self.logRegressionLayer.W ** 2).sum()
+        )
+        
+        self.params= self.params + self.logRegressionLayer.params
+        
+        self.negative_log_likelihood = (
+            self.logRegressionLayer.negative_log_likelihood
+        )
+        # same holds for the function computing the number of errors
+        self.errors = self.logRegressionLayer.errors
+        
+        self.input=input
+
+        
+    
+        
+    
 
 # TODO: you might need to modify the interface
 def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
-             batch_size=20, n_hidden=500, verbose=False):
+             batch_size=20, n_hidden=500,n_hiddenLayers=2, activation=T.tanh,patience=10000, verbose=False):
     """
     Demonstrate stochastic gradient descent optimization for a multilayer
     perceptron
@@ -442,22 +544,26 @@ def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
     rng = numpy.random.RandomState(1234)
 
     # construct the MLP class
-    classifier = MLP(
-        rng=rng,
-        input=x,
-        n_in=32*32*3,
-        n_hidden=n_hidden,
-        n_out=10,
-    )
+    if n_hiddenLayers==1:
+        classifier = MLP(
+            rng=rng,
+            input=x,
+            n_in=32*32*3,
+            n_hidden=n_hidden,
+            n_out=10,
+        )
 
     # TODO: use your MLP and comment out the classifier object above
-    # classifier = myMLP(
-    #    rng=rng,
-    #    input=x,
-    #    n_in=32*32*3,
-    #    n_hidden=n_hidden,
-    #    n_out=10,
-    #)
+    elif n_hiddenLayers>1:
+         classifier = myMLP(
+            rng=rng,
+            input=x,
+            n_in=32*32*3,
+            n_hidden=n_hidden,
+            n_hiddenLayers=n_hiddenLayers,
+            activation=activation,
+            n_out=10,
+        )
 
     # the cost we minimize during training is the negative log likelihood of
     # the model plus the regularization terms (L1 and L2); cost is expressed
@@ -601,6 +707,5 @@ def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
     print(('The code for file ' +
            os.path.split(__file__)[1] +
            ' ran for %.2fm' % ((end_time - start_time) / 60.)), file=sys.stderr)
+    return best_validation_loss,test_score 
 
-if __name__ == '__main__':
-    test_mlp()

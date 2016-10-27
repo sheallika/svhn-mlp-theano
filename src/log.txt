@@ -1,0 +1,460 @@
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 16.857923 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 15.969945 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 16.598361 % 
+validation error for  0.010000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 16.420765 % 
+validation error for  0.010000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 16.420765 % 
+validation error for  0.010000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 15.997268 % 
+validation error for  0.010000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 300 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 400 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 500 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 600 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 700 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 800 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 16.857923 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 15.969945 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 16.598361 % 
+validation error for  0.010000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 16.420765 % 
+validation error for  0.010000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 16.420765 % 
+validation error for  0.010000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 15.997268 % 
+validation error for  0.010000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 300 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 400 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 500 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 600 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 700 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 800 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 16.857923 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 15.969945 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 16.598361 % 
+validation error for  0.010000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 16.420765 % 
+validation error for  0.010000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 16.420765 % 
+validation error for  0.010000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 15.997268 % 
+validation error for  0.010000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 300 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 400 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 500 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 600 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 700 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 800 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 16.857923 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 15.969945 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 16.598361 % 
+validation error for  0.010000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 16.420765 % 
+validation error for  0.010000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 16.420765 % 
+validation error for  0.010000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 15.997268 % 
+validation error for  0.010000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 300 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 400 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 500 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 600 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 700 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.010000 learning rate, 800 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 16.816940 % 
+validation error for  0.020000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 15.983607 % 
+validation error for  0.020000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 16.693989 % 
+validation error for  0.020000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 16.926230 % 
+validation error for  0.020000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 17.663934 % 
+validation error for  0.020000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 17.049180 % 
+validation error for  0.020000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 300 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.092896 % 
+validation error for  0.020000 learning rate, 400 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.106557 % 
+validation error for  0.020000 learning rate, 500 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.120219 % 
+validation error for  0.020000 learning rate, 600 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.120219 % 
+validation error for  0.020000 learning rate, 700 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.106557 % 
+validation error for  0.020000 learning rate, 800 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.065574 % 
+validation error for  0.020000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 16.816940 % 
+validation error for  0.020000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 15.983607 % 
+validation error for  0.020000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 16.693989 % 
+validation error for  0.020000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 16.926230 % 
+validation error for  0.020000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 17.663934 % 
+validation error for  0.020000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 17.049180 % 
+validation error for  0.020000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 300 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.092896 % 
+validation error for  0.020000 learning rate, 400 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.106557 % 
+validation error for  0.020000 learning rate, 500 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.120219 % 
+validation error for  0.020000 learning rate, 600 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.120219 % 
+validation error for  0.020000 learning rate, 700 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.106557 % 
+validation error for  0.020000 learning rate, 800 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.065574 % 
+validation error for  0.020000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 16.816940 % 
+validation error for  0.020000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 15.983607 % 
+validation error for  0.020000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 16.693989 % 
+validation error for  0.020000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 16.926230 % 
+validation error for  0.020000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 17.663934 % 
+validation error for  0.020000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 17.049180 % 
+validation error for  0.020000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 300 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.092896 % 
+validation error for  0.020000 learning rate, 400 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.106557 % 
+validation error for  0.020000 learning rate, 500 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.120219 % 
+validation error for  0.020000 learning rate, 600 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.120219 % 
+validation error for  0.020000 learning rate, 700 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.106557 % 
+validation error for  0.020000 learning rate, 800 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.065574 % 
+validation error for  0.020000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 16.816940 % 
+validation error for  0.020000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 15.983607 % 
+validation error for  0.020000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 16.693989 % 
+validation error for  0.020000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 16.926230 % 
+validation error for  0.020000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 17.663934 % 
+validation error for  0.020000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 17.049180 % 
+validation error for  0.020000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.020000 learning rate, 300 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.092896 % 
+validation error for  0.020000 learning rate, 400 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.106557 % 
+validation error for  0.020000 learning rate, 500 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.120219 % 
+validation error for  0.020000 learning rate, 600 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.120219 % 
+validation error for  0.020000 learning rate, 700 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.106557 % 
+validation error for  0.020000 learning rate, 800 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.065574 % 
+validation error for  0.030000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 19.344262 % 
+validation error for  0.030000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 17.500000 % 
+validation error for  0.030000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 19.398907 % 
+validation error for  0.030000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 17.786885 % 
+validation error for  0.030000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 18.647541 % 
+validation error for  0.030000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 18.087432 % 
+validation error for  0.030000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 300 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.614754 % 
+validation error for  0.030000 learning rate, 400 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.833333 % 
+validation error for  0.030000 learning rate, 500 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.983607 % 
+validation error for  0.030000 learning rate, 600 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.038251 % 
+validation error for  0.030000 learning rate, 700 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.051913 % 
+validation error for  0.030000 learning rate, 800 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.024590 % 
+validation error for  0.030000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 19.344262 % 
+validation error for  0.030000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 17.500000 % 
+validation error for  0.030000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 19.398907 % 
+validation error for  0.030000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 17.786885 % 
+validation error for  0.030000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 18.647541 % 
+validation error for  0.030000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 18.087432 % 
+validation error for  0.030000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 300 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.614754 % 
+validation error for  0.030000 learning rate, 400 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.833333 % 
+validation error for  0.030000 learning rate, 500 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.983607 % 
+validation error for  0.030000 learning rate, 600 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.038251 % 
+validation error for  0.030000 learning rate, 700 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.051913 % 
+validation error for  0.030000 learning rate, 800 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.024590 % 
+validation error for  0.030000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 19.344262 % 
+validation error for  0.030000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 17.500000 % 
+validation error for  0.030000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 19.398907 % 
+validation error for  0.030000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 17.786885 % 
+validation error for  0.030000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 18.647541 % 
+validation error for  0.030000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 18.087432 % 
+validation error for  0.030000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 300 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.614754 % 
+validation error for  0.030000 learning rate, 400 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.833333 % 
+validation error for  0.030000 learning rate, 500 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.983607 % 
+validation error for  0.030000 learning rate, 600 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.038251 % 
+validation error for  0.030000 learning rate, 700 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.051913 % 
+validation error for  0.030000 learning rate, 800 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.024590 % 
+validation error for  0.030000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 19.344262 % 
+validation error for  0.030000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 17.500000 % 
+validation error for  0.030000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 19.398907 % 
+validation error for  0.030000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 17.786885 % 
+validation error for  0.030000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 18.647541 % 
+validation error for  0.030000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 18.087432 % 
+validation error for  0.030000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.030000 learning rate, 300 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.614754 % 
+validation error for  0.030000 learning rate, 400 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.833333 % 
+validation error for  0.030000 learning rate, 500 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.983607 % 
+validation error for  0.030000 learning rate, 600 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.038251 % 
+validation error for  0.030000 learning rate, 700 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.051913 % 
+validation error for  0.030000 learning rate, 800 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.024590 % 
+validation error for  0.040000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 18.073770 % 
+validation error for  0.040000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 18.319672 % 
+validation error for  0.040000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 20.519126 % 
+validation error for  0.040000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 19.303279 % 
+validation error for  0.040000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 19.959016 % 
+validation error for  0.040000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 20.778689 % 
+validation error for  0.040000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 300 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 59.890710 % 
+validation error for  0.040000 learning rate, 400 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.587432 % 
+validation error for  0.040000 learning rate, 500 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.874317 % 
+validation error for  0.040000 learning rate, 600 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.915301 % 
+validation error for  0.040000 learning rate, 700 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.010929 % 
+validation error for  0.040000 learning rate, 800 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.969945 % 
+validation error for  0.040000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 18.073770 % 
+validation error for  0.040000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 18.319672 % 
+validation error for  0.040000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 20.519126 % 
+validation error for  0.040000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 19.303279 % 
+validation error for  0.040000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 19.959016 % 
+validation error for  0.040000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 20.778689 % 
+validation error for  0.040000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 300 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 59.890710 % 
+validation error for  0.040000 learning rate, 400 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.587432 % 
+validation error for  0.040000 learning rate, 500 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.874317 % 
+validation error for  0.040000 learning rate, 600 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.915301 % 
+validation error for  0.040000 learning rate, 700 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.010929 % 
+validation error for  0.040000 learning rate, 800 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.969945 % 
+validation error for  0.040000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 18.073770 % 
+validation error for  0.040000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 18.319672 % 
+validation error for  0.040000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 20.519126 % 
+validation error for  0.040000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 19.303279 % 
+validation error for  0.040000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 19.959016 % 
+validation error for  0.040000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 20.778689 % 
+validation error for  0.040000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 300 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 59.890710 % 
+validation error for  0.040000 learning rate, 400 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.587432 % 
+validation error for  0.040000 learning rate, 500 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.874317 % 
+validation error for  0.040000 learning rate, 600 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.915301 % 
+validation error for  0.040000 learning rate, 700 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.010929 % 
+validation error for  0.040000 learning rate, 800 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.969945 % 
+validation error for  0.040000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 18.073770 % 
+validation error for  0.040000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 18.319672 % 
+validation error for  0.040000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 20.519126 % 
+validation error for  0.040000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 19.303279 % 
+validation error for  0.040000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 19.959016 % 
+validation error for  0.040000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 20.778689 % 
+validation error for  0.040000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.040000 learning rate, 300 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 59.890710 % 
+validation error for  0.040000 learning rate, 400 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.587432 % 
+validation error for  0.040000 learning rate, 500 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.874317 % 
+validation error for  0.040000 learning rate, 600 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.915301 % 
+validation error for  0.040000 learning rate, 700 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.010929 % 
+validation error for  0.040000 learning rate, 800 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.969945 % 
+validation error for  0.050000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 24.030055 % 
+validation error for  0.050000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 19.071038 % 
+validation error for  0.050000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 20.423497 % 
+validation error for  0.050000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 20.819672 % 
+validation error for  0.050000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 24.166667 % 
+validation error for  0.050000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 19.002732 % 
+validation error for  0.050000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 300 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 61.270492 % 
+validation error for  0.050000 learning rate, 400 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 61.939891 % 
+validation error for  0.050000 learning rate, 500 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.683060 % 
+validation error for  0.050000 learning rate, 600 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.751366 % 
+validation error for  0.050000 learning rate, 700 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.983607 % 
+validation error for  0.050000 learning rate, 800 n_hidden, sigmoid activation , 8000 patience, 0.000000 L1, 0.001000 L2 is 80.969945 % 
+validation error for  0.050000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 24.030055 % 
+validation error for  0.050000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 19.071038 % 
+validation error for  0.050000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 20.423497 % 
+validation error for  0.050000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 20.819672 % 
+validation error for  0.050000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 24.166667 % 
+validation error for  0.050000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 19.002732 % 
+validation error for  0.050000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 300 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 61.270492 % 
+validation error for  0.050000 learning rate, 400 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 61.939891 % 
+validation error for  0.050000 learning rate, 500 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.683060 % 
+validation error for  0.050000 learning rate, 600 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.751366 % 
+validation error for  0.050000 learning rate, 700 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.983607 % 
+validation error for  0.050000 learning rate, 800 n_hidden, sigmoid activation , 9000 patience, 0.000000 L1, 0.001000 L2 is 80.969945 % 
+validation error for  0.050000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 24.030055 % 
+validation error for  0.050000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 19.071038 % 
+validation error for  0.050000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 20.423497 % 
+validation error for  0.050000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 20.819672 % 
+validation error for  0.050000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 24.166667 % 
+validation error for  0.050000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 19.002732 % 
+validation error for  0.050000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 300 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 61.270492 % 
+validation error for  0.050000 learning rate, 400 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 61.939891 % 
+validation error for  0.050000 learning rate, 500 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.683060 % 
+validation error for  0.050000 learning rate, 600 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.751366 % 
+validation error for  0.050000 learning rate, 700 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.983607 % 
+validation error for  0.050000 learning rate, 800 n_hidden, sigmoid activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 80.969945 % 
+validation error for  0.050000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 24.030055 % 
+validation error for  0.050000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 19.071038 % 
+validation error for  0.050000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 20.423497 % 
+validation error for  0.050000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 20.819672 % 
+validation error for  0.050000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 24.166667 % 
+validation error for  0.050000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 19.002732 % 
+validation error for  0.050000 learning rate, 300 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 400 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 500 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 600 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 700 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 800 n_hidden, <function softmax at 0x7f16ba0efc08> activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 81.161202 % 
+validation error for  0.050000 learning rate, 300 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 61.270492 % 
+validation error for  0.050000 learning rate, 400 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 61.939891 % 
+validation error for  0.050000 learning rate, 500 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.683060 % 
+validation error for  0.050000 learning rate, 600 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.751366 % 
+validation error for  0.050000 learning rate, 700 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.983607 % 
+validation error for  0.050000 learning rate, 800 n_hidden, sigmoid activation , 11000 patience, 0.000000 L1, 0.001000 L2 is 80.969945 % 
+
+uptill here the paramete tunning was done on 
+    learning_rate=[0.01,0.02,0.03,0.04,0.05]
+    n_hidden=[400,500,600,700,800]
+    activation=[T.tanh,T.nnet.softmax,T.nnet.sigmoid ]
+    patience=[8000,9000,10000,11000]
+    regularizer_L1=[0.00]
+    regularizer_L2=[0.001]
+    
+and the model which gave minimum validation error is :
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.001000 L2 is 15.969945 % 
+
+Now, after seeing the results for the above parameters discarding the parameters which are suspected not to give minimum validation error:
+    learning_rate=[0.01,0.02]
+    n_hidden=[300,350,400,450,500,600]
+    activation=[T.tanh]
+    patience=[10000,11000]
+    regularizer_L1=[0.00,0.0001]
+    regularizer_L2=[0.00,0.0001]
+ with the following being best till now:
+    validation_best=0.15969945
+    best_learning_rt = 0.010000
+    best_n_hidden = 400
+    best_activation = T.tanh
+    best_patience = 10000 
+    best_L1=0.000000
+    best_L2=0.001000
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000000 L2 is 15.751366 % 
+validation error minimum upto here for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000000 L2 is 15.751366 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.765027 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000000 L2 is 16.229508 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000100 L2 is 16.024590 % 
+validation error for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000000 L2 is 15.573770 % 
+validation error minimum upto here for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000000 L2 is 15.573770 % 
+validation error for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.327869 % 
+validation error minimum upto here for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.327869 % 
+validation error for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000000 L2 is 15.928962 % 
+validation error for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000100 L2 is 15.478142 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000000 L2 is 15.532787 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.218579 % 
+validation error minimum upto here for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.218579 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000000 L2 is 16.325137 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000100 L2 is 16.434426 % 
+validation error for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000000 L2 is 15.273224 % 
+validation error for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 14.849727 % 
+validation error minimum upto here for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 14.849727 % 
+validation error for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000000 L2 is 18.087432 % 
+validation error for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000100 L2 is 19.207650 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000000 L2 is 14.644809 % 
+validation error minimum upto here for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000000 L2 is 14.644809 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 14.521858 % 
+validation error minimum upto here for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 14.521858 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000000 L2 is 17.172131 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000100 L2 is 18.920765 % 
+validation error for  0.010000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000000 L2 is 15.560109 % 
+validation error for  0.010000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.450820 % 
+validation error for  0.010000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000000 L2 is 17.500000 % 
+validation error for  0.010000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000100 L1, 0.000100 L2 is 18.456284 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000000 L2 is 15.751366 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000100 L2 is 15.765027 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000100 L1, 0.000000 L2 is 16.229508 % 
+validation error for  0.010000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000100 L1, 0.000100 L2 is 16.024590 % 
+validation error for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000000 L2 is 15.573770 % 
+validation error for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000100 L2 is 15.327869 % 
+validation error for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000100 L1, 0.000000 L2 is 15.928962 % 
+validation error for  0.010000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000100 L1, 0.000100 L2 is 15.478142 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000000 L2 is 15.532787 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000100 L2 is 15.218579 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000100 L1, 0.000000 L2 is 16.325137 % 
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000100 L1, 0.000100 L2 is 16.434426 % 
+validation error for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000000 L2 is 15.273224 % 
+validation error for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000100 L2 is 14.849727 % 
+validation error for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000100 L1, 0.000000 L2 is 18.087432 % 
+validation error for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000100 L1, 0.000100 L2 is 19.207650 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000000 L2 is 14.644809 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000100 L2 is 14.521858 % 
+
+After seeing the pattern it  is clear that the minimum validation error is for L1= 0.0, L2= 0.0001 
+so checking on learning rate= 0.2 for these values :
+    learning_rate=[0.02]
+    n_hidden=[300,350,400,450,500,600]
+    activation=[T.tanh]
+    patience=[10000,11000]
+    regularizer_L1=[0.00]
+    regularizer_L2=[0.0001]
+    
+with minimum validation error for :
+
+    validation_best=0.14521858
+    best_learning_rt = 0.010000
+    best_n_hidden = 500
+    best_activation = T.tanh
+    best_patience = 10000 
+    best_L1=0.000000
+    best_L2=0.000100
+    
+
+validation error for  0.020000 learning rate, 300 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.642077 % 
+validation error for  0.020000 learning rate, 350 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 16.010929 % 
+validation error for  0.020000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.983607 % 

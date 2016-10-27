@@ -34,7 +34,7 @@ def load_data():
     def check_dataset(dataset):
         # Check if dataset is in the data directory.
         new_path = os.path.join(
-            os.path.split(__file__)[0],
+            os.path.split('__file__')[0],
             "..",
             "data",
             dataset
@@ -382,8 +382,8 @@ class DropoutHiddenLayer(object):
         self.params = [self.W, self.b]
 
 # TODO: you might need to modify the interface
-def test_mlp_dropout(learning_rate, L1_reg, L2_reg, n_epochs,
-             batch_size, n_hidden, verbose, hidlayers, acttest=T.tanh):
+def test_mlp_dropout(learning_rate=0.01, L1_reg=0, L2_reg=0.0001, n_epochs=500,batch_size=20,
+                     n_hidden=500, verbose= True, hidlayers=2, acttest=T.tanh,p=0.7):
     """
     Demonstrate stochastic gradient descent optimization for a multilayer
     perceptron
@@ -436,47 +436,82 @@ def test_mlp_dropout(learning_rate, L1_reg, L2_reg, n_epochs,
     rng = numpy.random.RandomState(1234)
     
     #TODO: create an object of DropoutHiddenLayer class
-    #hiddenlayer_one = ...... 
+    hiddenlayer_one = DropoutHiddenLayer(
+        rng=rng,
+        is_train=training_enabled,
+        input=x,
+        n_in=32*32*3,
+        n_out=n_hidden,
+        W=None,
+        b=None,
+        activation=T.tanh,
+        p=p)
         
     #TODO: create an object of DropoutHiddenLayer class
-    #hiddenlayer_two = ......      
+    hiddenlayer_two = DropoutHiddenLayer(
+        rng=rng,
+        is_train=training_enabled,
+        input=hiddenlayer_one.output,
+        n_in=n_hidden,
+        n_out=n_hidden,
+        W=None,
+        b=None,
+        activation=T.tanh,
+        p=p)      
 
     # The logistic regression layer gets as input the hidden units
     # of the hidden layer
     #TODO: create an object of LogisticRegression class
-    #logRegressionLayer = ......
+    logRegressionLayer = LogisticRegression(
+        input=hiddenlayer_two.output,
+        n_in=n_hidden,
+        n_out=10)
     
     # L1 norm ; one regularization option is to enforce L1 norm to
     # be small
     #TODO: Define the expression for L1
-    #L1 = ......
+    L1 = (
+        abs(hiddenlayer_one.W).sum()
+        + abs(hiddenlayer_two.W).sum()
+        + abs(logRegressionLayer.W).sum()
+        )
     
     # square of L2 norm ; one regularization option is to enforce
     # square of L2 norm to be small
     #TODO: Define the expression for L2_sqr
-    #L2_sqr = ......
+    L2_sqr = (
+        (hiddenlayer_one.W ** 2).sum()
+        + (hiddenlayer_two.W ** 2).sum()
+        + (logRegressionLayer.W ** 2).sum()
+        )
+
 
     # negative log likelihood of the MLP is given by the negative
     # log likelihood of the output of the model, computed in the
     # logistic regression layer
     #TODO: Define the expression for negative_log_likelihood
-    #negative_log_likelihood = ......
-    
+    negative_log_likelihood =(
+        logRegressionLayer.negative_log_likelihood
+        )
     
     # same holds for the function computing the number of errors
     #TODO: Define the expression for errors
-    #errors = ......
+    errors = logRegressionLayer.errors
 
     # the parameters of the model are the parameters of the two layer it is
     # made out of
     #TODO: Define the expression for params
-    #params = ......
-    
+    params = hiddenlayer_one.params + hiddenlayer_two.params + logRegressionLayer.params
+
     # the cost we minimize during training is the negative log likelihood of
     # the model plus the regularization terms (L1 and L2); cost is expressed
     # here symbolically  
     #TODO: Define the expression for cost
-    #cost = ......
+    cost =(
+        negative_log_likelihood(y)
+        + L1_reg * L1
+        + L2_reg * L2_sqr
+    )
 
     # compiling a Theano function that computes the mistakes that are made
     # by the model on a minibatch
@@ -610,14 +645,16 @@ def test_mlp_dropout(learning_rate, L1_reg, L2_reg, n_epochs,
            'obtained at iteration %i, with test performance %f %%') %
           (best_validation_loss * 100., best_iter + 1, test_score * 100.))
     print(('The code for file ' +
-           os.path.split(__file__)[1] +
+           os.path.split('__file__')[1] +
            ' ran for %.2fm' % ((end_time - start_time) / 60.)), file=sys.stderr)
     return test_score
 
 if __name__ == '__main__':
-    y = list()
-    for i in [1,2,3,4,5,6,7,8]:
-        com = test_mlp(1,0.00,0.0001,1000,20,50,True,i)
-        y.append(com)
-        del com
-    print(y) 
+    result=test_mlp_dropout(learning_rate=0.01, L1_reg=0.0, L2_reg=0.0001, n_epochs=500, 
+                     batch_size=20, n_hidden=500, verbose=True, hidlayers=2, acttest=T.tanh, p=0.7)
+    print (('test accuracy with drop out regularization is %f %%') % ((1-result)*100))
+    
+    result=test_mlp_dropout(learning_rate=0.01, L1_reg=0.0, L2_reg=0.0001, n_epochs=500, 
+                     batch_size=20, n_hidden=500, verbose=True, hidlayers=2, acttest=T.tanh, p=1)
+    print (('test accuracy without drop out regularization is %f %%') % ((1-result)*100))
+           
