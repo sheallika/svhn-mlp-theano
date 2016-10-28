@@ -34,7 +34,7 @@ def load_data():
     def check_dataset(dataset):
         # Check if dataset is in the data directory.
         new_path = os.path.join(
-            os.path.split(__file__)[0],
+            os.path.split('__file__')[0],
             "..",
             "data",
             dataset
@@ -485,15 +485,13 @@ class myMLP(object):
         self.errors = self.logRegressionLayer.errors
         
         self.input=input
-
         
     
         
     
 
 # TODO: you might need to modify the interface
-def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
-             batch_size=20, n_hidden=500,n_hiddenLayers=2, activation=T.tanh,patience=10000, verbose=False):
+def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,batch_size=20, n_hidden=500,n_hiddenLayers=2, activation=T.tanh,patience=10000, verbose=False):
     """
     Demonstrate stochastic gradient descent optimization for a multilayer
     perceptron
@@ -705,7 +703,6 @@ def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=1000,
            'obtained at iteration %i, with test performance %f %%') %
           (best_validation_loss * 100., best_iter + 1, test_score * 100.))
     print(('The code for file ' +
-           os.path.split(__file__)[1] +
+           os.path.split('__file__')[1] +
            ' ran for %.2fm' % ((end_time - start_time) / 60.)), file=sys.stderr)
     return best_validation_loss,test_score 
-

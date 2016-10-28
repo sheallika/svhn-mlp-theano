@@ -470,4 +470,16 @@ validation error for  0.020000 learning rate, 400 n_hidden, Elemwise{tanh,no_inp
 validation error for  0.020000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000100 L2 is 15.683060 % 
 validation error for  0.020000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000100 L2 is 15.464481 % 
 validation error for  0.020000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 11000 patience, 0.000000 L1, 0.000100 L2 is 15.450820 % 
-parameter tunning complete....testing for different hidden layers...test accuracy for 0.010000 learning rate, 1 hidden layers, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 78.235972 %test accuracy for 0.010000 learning rate, 3 hidden layers, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 81.172175 %test accuracy for 0.010000 learning rate, 5 hidden layers, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 77.494235 %test accuracy for 0.010000 learning rate, 7 hidden layers, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 77.102229 %
+parameter tunning complete....testing for different hidden layers...
+test accuracy for 0.010000 learning rate, 1 hidden layers, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 78.235972 %
+test accuracy for 0.010000 learning rate, 3 hidden layers, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 81.172175 %
+test accuracy for 0.010000 learning rate, 5 hidden layers, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 77.494235 %
+test accuracy for 0.010000 learning rate, 7 hidden layers, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 77.102229 %
+validation error for  0.010000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.368852 % 
+validation error for  0.010000 learning rate, 450 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 16.188525 % 
+validation error for  0.010000 learning rate, 500 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.505464 % 
+validation error for  0.010000 learning rate, 600 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 16.557377 % 
+validation error for  0.010000 learning rate, 700 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 16.530055 % 
+validation error for  0.010000 learning rate, 800 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.642077 % 
+validation error for  0.010000 learning rate, 850 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.245902 % 
+validation error for  0.020000 learning rate, 400 n_hidden, Elemwise{tanh,no_inplace} activation , 10000 patience, 0.000000 L1, 0.000100 L2 is 15.628415 % 
