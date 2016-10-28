@@ -1,0 +1,10 @@
+the validation accuracy is 66.830601 %, for n_neurons 20 and the test accuracy is 63.616449 %
+the validation accuracy is 81.311475 %, for n_neurons 200 and the test accuracy is 79.581091 %
+the validation accuracy is 80.109290 %, for n_neurons 400 and the test accuracy is 78.420446 %
+the validation accuracy is 80.095628 %, for n_neurons 500 and the test accuracy is 78.235972 % 
+the validation accuracy is 77.718579 %, for n_neurons 700 and the test accuracy is 75.795542 % 
+the validation accuracy is 78.005464 %, for n_neurons 1000 and the test accuracy is 75.580323 % 
+the validation accuracy is 80.887978 %, for n_neurons 1200 and the test accuracy is 78.789393 %
+
+
+

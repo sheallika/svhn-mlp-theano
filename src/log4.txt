@@ -1,0 +1,6 @@
+the validation accuracy is 77.213115 %, for n_hidden_layers 1 and the test accuracy is 75.188317 %
+the validation accuracy is 83.346995 %, for n_hidden_layers 2 and the test accuracy is 81.033820 %
+the validation accuracy is 84.713115 %, for n_hidden_layers 3 and the test accuracy is 81.802460 %
+the validation accuracy is 82.540984 %, for n_hidden_layers 4 and the test accuracy is 79.903920 %
+the validation accuracy is 80.150273 %, for n_hidden_layers 5 and the test accuracy is 78.474251 %
+the validation accuracy is 81.445355 %, for n_hidden_layers 6 and the test accuracy is 77.746349 %

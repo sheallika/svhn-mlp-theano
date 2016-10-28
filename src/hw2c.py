@@ -649,12 +649,8 @@ def test_mlp_dropout(learning_rate=0.01, L1_reg=0, L2_reg=0.0001, n_epochs=500,b
            ' ran for %.2fm' % ((end_time - start_time) / 60.)), file=sys.stderr)
     return test_score
 
-if __name__ == '__main__':
-    result=test_mlp_dropout(learning_rate=0.01, L1_reg=0.0, L2_reg=0.0001, n_epochs=500, 
-                     batch_size=20, n_hidden=500, verbose=True, hidlayers=2, acttest=T.tanh, p=0.7)
-    print (('test accuracy with drop out regularization is %f %%') % ((1-result)*100))
+
+
     
-    result=test_mlp_dropout(learning_rate=0.01, L1_reg=0.0, L2_reg=0.0001, n_epochs=500, 
-                     batch_size=20, n_hidden=500, verbose=True, hidlayers=2, acttest=T.tanh, p=1)
-    print (('test accuracy without drop out regularization is %f %%') % ((1-result)*100))
+
            
